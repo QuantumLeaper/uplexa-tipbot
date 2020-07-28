@@ -62,5 +62,5 @@ module.exports = {
     'I am uPlexa Tipbot, I was created by QuantumL3aper: ```https://github.com/QuantumLeaper/uplexa-tipbot\nhttps://twitter.com/quantuml3aper ```',
 
   imJustABotWarning:
-    '** WARNING: I should NOT be used as your primary wallet!\nI am just a bot! BLEEP BLOOP :robot: **\n```Commands:\n---PUBLIC---\n$upx.send AMOUNT @user\t (Send some UPX to a user)\n$upx.about\t\t\t (Bot Information)\n$upx.balance\t\t\t (Check your balance)\n--PRIVATE (DM)--\n$upx.address\t\t\t (Get your UPX wallet address)\n$upx.withdraw AMOUNT WALLET (Static TX fee of 2.46 UPX)```',
+    '** WARNING: I should NOT be used as your primary wallet!\nI am just a bot! BLEEP BLOOP :robot: **\n```Commands:\n---PUBLIC---\n$upx.send AMOUNT @user\t (Send some UPX to a user)\n$upx.about\t\t\t (Bot Information)\n$upx.balance\t\t\t (Check your balance)\n--PRIVATE (DM)--\n$upx.address\t\t\t (Get your UPX wallet address)\n$upx.balance\t\t\t (Check your balance)\n$upx.withdraw AMOUNT WALLET (Static TX fee of 2.46 UPX)```',
 }

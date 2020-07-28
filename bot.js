@@ -94,6 +94,12 @@ discord.on('message', async msg => {
         return handleRes(res, msg)
       }
 
+      case 'balance': {
+        const balance = await getBalance(uid)
+        msg.channel.send(lang.balance(uname, balance))
+        return
+      }
+
       case 'withdraw': {
         const res = await withdraw(args, uname, uid)
         return handleRes(res, msg)
