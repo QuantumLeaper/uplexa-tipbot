@@ -21,3 +21,7 @@ To run the bot:
 pm2 start dynamic.js``
 
 (dynamic.js simply runs wallet mostly wallet related things and stuff)
+
+
+# License
+See LICENSE
