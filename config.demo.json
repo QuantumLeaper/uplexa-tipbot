@@ -1,0 +1,21 @@
+{
+ "redis": {
+   "host": "localhost"
+ },
+ "discord":{
+   "token": "",
+   "guild": "417982588498477060",
+   "admin": "348787603321126912",
+   "adminMode": "1"
+ },
+ "coinConfig":{
+   "netType": "mainnet",
+   "walletName": "discord"
+ },
+ "faucet":{
+   "enabled": "0"
+ },
+ "lottery":{
+   "enabled": "0"
+ }
+}

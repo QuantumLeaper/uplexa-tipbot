@@ -1,0 +1,25 @@
+version: '2'
+services:
+  bot:
+    depends_on:
+      - redis
+    network_mode: host
+    ports:
+      - 21065:21065
+    build:
+      context: ../.
+      dockerfile: container/Dockerfile.bot
+    command: /bin/bash
+    volumes:
+      - ../.:/bot
+      - /bot/node_modules
+    stdin_open: true
+    tty: true
+
+  redis: 
+    image: redis
+    ports:
+      - 6379:6379
+    network_mode: host
+    environment:
+      REDIS_HOST: redis
