@@ -1,0 +1,12 @@
+FROM node:10.15.0
+
+RUN mkdir /bot
+
+WORKDIR /bot
+
+COPY package.json package.json
+COPY package-lock.json package-lock.json
+COPY bot.js bot.js
+COPY bot bot
+
+RUN yarn

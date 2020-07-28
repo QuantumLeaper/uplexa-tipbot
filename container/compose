@@ -1,0 +1,15 @@
+PROJECT_NAME=dbot
+if [ "$1" == "up" ]; then
+  docker-compose -p $PROJECT_NAME -f 'compose.yml' up -d
+  exit 0
+fi
+
+if [ "$1" == "down" ]; then
+  docker-compose -p $PROJECT_NAME -f 'compose.yml' down
+  exit 0
+fi
+
+if [ "$1" == "exec" ]; then
+  docker-compose -p $PROJECT_NAME -f 'compose.yml' exec bot /bin/bash
+  exit 0
+fi
